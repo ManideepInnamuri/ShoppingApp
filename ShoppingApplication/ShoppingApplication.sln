@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApplication.Web", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApplication.Api", "ShoppingApplication.Api\ShoppingApplication.Api.csproj", "{C9C9527C-31DB-47D2-B3B2-A7CAB1C05863}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common Layer", "Common Layer", "{A9DA5301-11EF-4D4B-BD44-0087343F1511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApplication.Entities", "ShoppingApplication.Entities\ShoppingApplication.Entities.csproj", "{2D5F746A-1B5D-4260-9B1C-6B52BE256559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{C9C9527C-31DB-47D2-B3B2-A7CAB1C05863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C9527C-31DB-47D2-B3B2-A7CAB1C05863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C9527C-31DB-47D2-B3B2-A7CAB1C05863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5F746A-1B5D-4260-9B1C-6B52BE256559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5F746A-1B5D-4260-9B1C-6B52BE256559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5F746A-1B5D-4260-9B1C-6B52BE256559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5F746A-1B5D-4260-9B1C-6B52BE256559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{316BA45B-2D08-46C0-AF6F-113E3784BC51} = {812D8636-780C-43EC-87A6-53518A07AB70}
 		{C9C9527C-31DB-47D2-B3B2-A7CAB1C05863} = {812D8636-780C-43EC-87A6-53518A07AB70}
+		{2D5F746A-1B5D-4260-9B1C-6B52BE256559} = {A9DA5301-11EF-4D4B-BD44-0087343F1511}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2FEE3EB-6570-4C74-BAF5-185C70BF6CD1}
